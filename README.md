@@ -13,7 +13,9 @@ Open the "start.py" file in Python and run it to display the software menu inter
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cad4bfdd-f918-49e2-9a8f-21989ff8b8cb" alt="Image Description" width="200">
 </div>
-Figure 1: Software Menu Interface
+<p align="center">
+  Figure 1: Software Menu Interface
+</p>
 
 2.2 Execution Steps
 2.2.3 Parameter Configuration
