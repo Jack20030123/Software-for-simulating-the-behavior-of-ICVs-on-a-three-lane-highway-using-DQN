@@ -2,6 +2,7 @@
 This software, based on the DQN model, is primarily designed to study the lane-changing decision mechanisms of ICVs. It provides a detailed simulation environment tailored to various real-world road conditions, including different traffic densities, numbers of ICVs, and specific ICV parameter settings.
 
 1 Operating Environment
+
 The software can be run on most mainstream commercial computers equipped with 64-bit Windows operating systems, macOS, or Linux. The lane-changing decision-making software for Intelligent Connected Vehicles (ICVs) requires Python 3.6 or above, with additional libraries such as tkinter, PyTorch, numpy, matplotlib, pandas, and highway_env.
 
 Additionally, the computer must have Microsoft Office or WPS software installed to facilitate the output and processing of simulation data.
@@ -36,10 +37,22 @@ After successfully entering the number of ICVs and HDVs, the parameter configura
 
 Upon clicking "Submit," the software will automatically start model training, as shown in Figure 3. The software will initiate highway-env to conduct model training and evaluation in a three-lane highway scenario. Green vehicles represent ICVs, while blue vehicles represent HDVs. The ICVs can achieve coordinated control among themselves.
 
-Figure 3: Simulation Interface
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a7d1a872-6feb-4445-8fe7-e437b37b3f66" width="800">
+</div>
+
+<p align="center">
+  Figure 3: Simulation Interface
+</p>
 
 2.2.5 Simulation Results Display
 
 Once the simulation training is complete, evaluation results in the form of images and Excel files will be stored in the local train folder and can be directly viewed in PyCharm. Key results include the ICVs' average speed line chart, reward value function graph, survival time, and headway distance.
 
-Figure 4: Average Reward Per Vehicle During Each Training Session
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ffb532a4-c9e2-4415-ad32-1d252864b2e0" width="800">
+</div>
+
+<p align="center">
+  Figure 4: Average Reward Per Vehicle During Each Training Session
+</p>
