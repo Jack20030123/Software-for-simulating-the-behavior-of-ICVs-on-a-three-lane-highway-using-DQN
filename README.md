@@ -19,17 +19,27 @@ Open the "start.py" file in Python and run it to display the software menu inter
 </p>
 
 2.2 Execution Steps
-2.2.3 Parameter Configuration
+
+2.2.1 Parameter Configuration
+
 After successfully entering the number of ICVs and HDVs, the parameter configuration interface will appear, as shown in Figure 2. In this interface, users can adjust the reward functions and simulation settings for each ICV. The number of vehicle parameter input fields will match the number of ICVs entered in the previous interface. After completing the input, click "Submit" to begin training.
 
-Figure 2: Parameter Configuration Interface
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/29c60ee3-315e-4231-82ab-c746078b115e" alt="Image Description" width="200">
+</div>
+
+<p align="center">
+  Figure 2: Parameter Configuration Interface
+</p>
 
 2.2.4 Simulation Execution
+
 Upon clicking "Submit," the software will automatically start model training, as shown in Figure 3. The software will initiate highway-env to conduct model training and evaluation in a three-lane highway scenario. Green vehicles represent ICVs, while blue vehicles represent HDVs. The ICVs can achieve coordinated control among themselves.
 
 Figure 3: Simulation Interface
 
 2.2.5 Simulation Results Display
+
 Once the simulation training is complete, evaluation results in the form of images and Excel files will be stored in the local train folder and can be directly viewed in PyCharm. Key results include the ICVs' average speed line chart, reward value function graph, survival time, and headway distance.
 
 Figure 4: Average Reward Per Vehicle During Each Training Session
