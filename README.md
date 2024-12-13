@@ -11,7 +11,7 @@ Additionally, the computer must have Microsoft Office or WPS software installed 
 Open the "start.py" file in Python and run it to display the software menu interface, as shown in Figure 1.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cad4bfdd-f918-49e2-9a8f-21989ff8b8cb" alt="Image Description" width="500">
+  <img src="https://github.com/user-attachments/assets/cad4bfdd-f918-49e2-9a8f-21989ff8b8cb" alt="Image Description" width="400">
 </div>
 Figure 1: Software Menu Interface
 
