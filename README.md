@@ -9,7 +9,10 @@ Additionally, the computer must have Microsoft Office or WPS software installed 
 2 User Guide
 2.1 Software Execution
 Open the "start.py" file in Python and run it to display the software menu interface, as shown in Figure 1.
-![image](https://github.com/user-attachments/assets/cad4bfdd-f918-49e2-9a8f-21989ff8b8cb)
+
+<div align="center">
+  <img src="[image_url](https://github.com/user-attachments/assets/cad4bfdd-f918-49e2-9a8f-21989ff8b8cb)" alt="Image Description" width="500">
+</div>
 Figure 1: Software Menu Interface
 
 2.2 Execution Steps
