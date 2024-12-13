@@ -7,6 +7,7 @@ The software can be run on most mainstream commercial computers equipped with 64
 Additionally, the computer must have Microsoft Office or WPS software installed to facilitate the output and processing of simulation data.
 
 2 User Guide
+
 2.1 Software Execution
 Open the "start.py" file in Python and run it to display the software menu interface, as shown in Figure 1.
 
